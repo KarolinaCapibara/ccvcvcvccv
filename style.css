@@ -119,14 +119,6 @@ header ul li:hover > ul {
 }
  
 
-
- .container-img {
-    align-items: center;
-    width: 100px;
-    height: 100px;
-
- }
-
  .text {
     position: fixed;
     right: 20px; 
@@ -137,5 +129,27 @@ header ul li:hover > ul {
  .text {
     right: 320px;
  }
- 
- 
+
+ .container-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-img {
+    text-align: center; 
+}
+
+.container-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.second-image {
+    text-align: left; 
+    margin-top: 20px; 
+}
+
+.second-image img {
+    width: 80%;
+    height: 80%;
+}
