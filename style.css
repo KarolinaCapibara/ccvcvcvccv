@@ -20,44 +20,44 @@
      box-shadow: 0 2px 10px #9f9f9f;
  }
  
- header nav ul li{
+ header ul li{
      padding: relative;
      float: right;
  }
  
- header nav ul li a {
+ header ul li a {
      padding: 16px;
      color:#000000;
      font-size: 19px;
      display: block;
  }
  
- header nav ul li a:hover{
+ header ul li a:hover{
      background: #ff7300;
      color: white;
      border-radius: 29px;
  }
  
- nav ul li ul {
+header ul li ul {
      position: absolute;
      width: 180px;
      color: white;
      display: none;
  }
  
- nav ul li ul li {
+header ul li ul li {
      width: 100%;
      border: 1px solid rgba(0, 0, 0,.1);
      border-radius: 29px;
  }
  
- nav ul li ul li ul{
+header ul li ul li ul{
      left: 180px;
      top: 0;
  
  }
  
- nav ul li:hover > ul {
+header ul li:hover > ul {
      display: initial;
  }
  
@@ -101,21 +101,18 @@
      
  }
  
- .button{
-     right: 300px;
+ .fixed-button{
+     position: fixed;
      color: #fff;
      background-color: #191919;
-     width: 200px;
-     height: 42px;
-     position: fixed;
-     bottom: 250px;
+     width: 210px;
+     height: 50px;
      border-radius: 20px;
-     padding: 5px;
-     text-align: center;
      display: flex;
      align-items: center;
      justify-content: center;
-     bottom: 45%;
+    right: 320px;
+    bottom: 320px;
      
  }
  
@@ -125,5 +122,12 @@
     width: 100px;
     height: 100px;
 
+ }
+
+ .text {
+    position: fixed;
+    right: 305px;
+    bottom: 400px;
+    font-size: 30px;
  }
  
