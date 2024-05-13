@@ -7,6 +7,10 @@
     text-decoration: none;
  }
  
+ body {
+    background-color: rgb(249, 250, 252);
+ }
+
  header {
      position: fixed;
      top: 0;
@@ -21,7 +25,7 @@
  }
  
  header ul li{
-     padding: relative;
+    position: relative;
      float: right;
  }
  
@@ -100,25 +104,24 @@ header ul li:hover > ul {
      right: 9%;
      
  }
- 
- .fixed-button{
-     position: fixed;
-     color: #fff;
-     background-color: #191919;
-     width: 210px;
-     height: 50px;
-     border-radius: 20px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-    right: 420px;
-    bottom: 440px;
-     
- }
+.fixed-button{
+    position: fixed;
+    color: #fff;
+    background-color: #191919;
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 340px;
+    bottom: 530px; 
+}
  
 
 
  .container-img {
+    align-items: center;
     width: 100px;
     height: 100px;
 
@@ -126,8 +129,13 @@ header ul li:hover > ul {
 
  .text {
     position: fixed;
-    right: 300px;
-    bottom: 550px;
+    right: 20px; 
+    bottom: 530px; 
     font-size: 30px;
+}
+
+ .text {
+    right: 320px;
  }
+ 
  
