@@ -102,7 +102,7 @@ header ul li:hover > ul {
  }
  
  .fixed-button{
-     position: absolute;
+     position: fixed;
      color: #fff;
      background-color: #191919;
      width: 210px;
@@ -111,8 +111,8 @@ header ul li:hover > ul {
      display: flex;
      align-items: center;
      justify-content: center;
-    right: 500px;
-    bottom: 500px;
+    right: 320px;
+    bottom: 200px;
      
  }
  
@@ -125,9 +125,9 @@ header ul li:hover > ul {
  }
 
  .text {
-    position: absolute;
-    right: 400px;
-    bottom: 600px;
+    position: fixed;
+    right: 200px;
+    bottom: 300px;
     font-size: 30px;
  }
  
